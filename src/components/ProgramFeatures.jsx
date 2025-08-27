@@ -90,16 +90,19 @@ const ProgramFeatures = () => {
           {features.map((feature, index) => (
             <motion.div
               key={index}
-              className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 hover:scale-105 border border-cyan-500/30 hover:border-cyan-400 group"
+              className="bg-green-900/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg 
+                         hover:bg-white hover:shadow-white/40 
+                         transition-all duration-300 hover:scale-105 
+                         border border-green-500/30 hover:border-white group"
               variants={itemVariants}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 border-2 border-cyan-400 rounded-full flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 border-2 border-green-400 rounded-full flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
                 <feature.icon className="text-white text-3xl" />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4">
+              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-gray-900">
                 {feature.title}
               </h3>
-              <p className="text-gray-400 text-lg leading-relaxed">
+              <p className="text-gray-400 text-lg leading-relaxed group-hover:text-gray-700">
                 {feature.desc}
               </p>
             </motion.div>
