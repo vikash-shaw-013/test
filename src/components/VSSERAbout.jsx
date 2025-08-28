@@ -92,7 +92,7 @@ const GDCAbout = () => (
             className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-cyan-400/10 to-transparent origin-left"
           />
           <AnimatedText
-            text="At IRGDC, our aim is to create an accessible and credible platform that empowers students, especially from underserved regions to become globally competent scholars, policy thinkers, and public leaders. We bridge gaps in mentorship, research opportunities, and academic publishing to help students unlock their full potential in diplomacy and international affairs."
+            text="At GDC, our aim is to create an accessible and credible platform that empowers students, especially from underserved regions to become globally competent scholars, policy thinkers, and public leaders. We bridge gaps in mentorship, research opportunities, and academic publishing to help students unlock their full potential in diplomacy and international affairs."
             className="text-xl md:text-2xl text-gray-200 leading-relaxed font-light tracking-wide"
           />
         </div>
@@ -143,3 +143,4 @@ const GDCAbout = () => (
 );
 
 export default GDCAbout;
+
