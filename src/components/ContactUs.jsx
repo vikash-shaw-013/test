@@ -34,12 +34,12 @@ const ContactUs = () => {
       {/* Footer */}
       <footer className="relative bg-[#132137] text-cyan-400 py-8 text-center border-t border-cyan-700">
         <div className="text-2xl font-semibold mb-2">
-          <span className="font-normal">IRGDC</span>
+          <span className="font-normal">GDC</span>
         </div>
         <div className="text-sm opacity-70">© 2025. All rights reserved.</div>
         <div className="absolute right-6 bottom-6">
           <span className="bg-cyan-700 text-cyan-200 px-4 py-2 rounded-lg text-sm font-medium shadow-sm">
-            Powered by <span className="font-semibold">IRGDC</span>
+            Powered by <span className="font-semibold">GDC</span>
           </span>
         </div>
       </footer>
@@ -48,3 +48,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
