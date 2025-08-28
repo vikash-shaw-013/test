@@ -86,7 +86,7 @@ const OnlineCohort = () => {
       <section className="bg-[#0c1a21] text-white py-16 px-4 border-t border-cyan-900/50">
         <div className="flex flex-col items-center justify-center text-center w-full gap-y-8">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">
-            Objectives of International Relations & Global Diplomacy Consulting (IRGDC)
+            Objectives of International Relations & Global Diplomacy Consulting (GDC)
           </h2>
           <p className="font-medium text-lg text-cyan-300 max-w-4xl leading-relaxed">
             The objectives of GDC are framed to guide the platform's growth, output,
@@ -171,3 +171,4 @@ const OnlineCohort = () => {
 };
 
 export default OnlineCohort;
+
