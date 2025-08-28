@@ -64,7 +64,7 @@ const VisionSection = () => {
             Our Vision at International Relations & Global Diplomacy Consulting
           </h2>
           <p className="text-base md:text-lg text-gray-300 leading-relaxed">
-            We envision IRGDC as a globally recognized hub for excellence in diplomacy,
+            We envision GDC as a globally recognized hub for excellence in diplomacy,
             international relations, and public policy where young minds lead, publish,
             and innovate for real-world impact. We believe in rising and thriving sustainably.
           </p>
@@ -86,3 +86,4 @@ const VisionSection = () => {
 };
 
 export default VisionSection;
+
